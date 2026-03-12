@@ -24,3 +24,5 @@ TestResults.xml
 \.venv
 
 app.db
+
+\__pycache__
