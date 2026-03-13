@@ -32,7 +32,7 @@ This is a lightweight web application that allows users to interact with the [Ri
    ```
 3. Install the dependencies:
    ```bash
-   pip install Flask Flask-SQLAlchemy requests
+   pip install -r requirements.txt
    ```
 4. Run the application bundle. SQLAlchemy will automatically create the database `.db` file in an `instance` folder upon first initialization.
    ```bash
@@ -76,7 +76,7 @@ Esta es una aplicación web ágil que permite a los usuarios interactuar con la 
    ```
 3. Instala los paquetes y librerías pre-requisitos:
    ```bash
-   pip install Flask Flask-SQLAlchemy requests
+   pip install -r requirements.txt
    ```
 4. Inicia la aplicación en forma. SQLAlchemy automáticamente conformará el archivo `.db` contenedor dentro de un sub-directorio de inicio llamado `instance` la primera vez que inicie.
    ```bash
